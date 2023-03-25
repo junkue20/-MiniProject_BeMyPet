@@ -1,12 +1,13 @@
 package main;
 
+import ui.LoginFrame;
+import ui.MainFrame;
+
 public class Main {
 
+//	확인용
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		new LoginFrame(new MainFrame());
 
-		System.out.println("2조");
-		System.out.println("MAIN");
 	}
-
 }
